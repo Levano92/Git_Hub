@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dukhovnyy",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^10.6.0"
+    "cypress": "^10.6.0",
+    "cypress-localstorage-commands": "^2.2.0"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.1"
   }
 }
